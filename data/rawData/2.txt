@@ -1,0 +1,12 @@
+#application
+#Entity : polynom
+#nodes
+5
+#dependency
+ 0 1 0 0 0
+ 0 0 0 0 1
+ 0 0 0 1 0
+ 0 0 0 0 1
+ 0 0 0 0 0
+#types
+ 1 2 1 0 0

@@ -1,0 +1,10 @@
+-539 -548 -585 -565 -535 -581
+-539 -548 -585 -565 -535 -581
+-539 -548 -585 -565 -535 -581
+color :vendor
+1     :   5
+2     :   1
+3     :   2
+minimum weight sum is 1622
+minimum time cycle is 7
+minimum area is       24

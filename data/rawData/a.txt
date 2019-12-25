@@ -1,0 +1,10 @@
+#application
+#Entity : eq_2degre
+#nodes
+3
+#dependency
+ 0 0 1
+ 0 0 1
+ 0 0 0
+#types
+ 0 0 0

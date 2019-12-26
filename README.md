@@ -83,6 +83,41 @@
 
   其中cip与cipr都是按列来理解，分别是每一种颜色对应的节点或节点类型。
 
-- 
+- output
 
-## 2.使用说明
+  `1_0_res.txt`表示第一个数据集在0个受信任IP核情况下的实验结果。
+
+## 3.使用说明
+
+### 3.1 环境要求
+
+- Python 3.x 
+  - jupyter-notebook
+  - numpy
+  - networkx
+  - matplotlib
+  - pandas
+  - copy
+
+- C++
+  - 至少支持C++11的编译器
+
+我们开发环境为：
+
+- Ubuntu18.04+Anaconda3+GCC8.3
+
+### 3.2 如何使用
+
+- 请确保3.1环境正确
+
+- 请运行`graphColor.ipynb`文件，将在graphColor文件夹下存储实验结果。
+
+- 请运行`graph.cpp`
+  - 运行方式如下：
+
+  ```cpp
+  g++ graph.cpp -std=c++11
+  ./a.out
+  ```
+
+- 查看实验结果(进入output目录)

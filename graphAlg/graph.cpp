@@ -3,8 +3,9 @@
 
 int main(int argc, char *argv[]) {
 
-    string file = "3";
-    string n_ip = "0";
+    string file = argv[1];
+
+    string n_ip = argv[2];
     cout << "========================get a match {color:vendor}===============" << endl;
     int m, n;
     string fileName = "../data/graphColor/" + file + "_" + n_ip + "_weight.txt";
@@ -152,7 +153,7 @@ int main(int argc, char *argv[]) {
     graphIp.setGraphResult(minSum, minCycle, minArea);
 
     string saveFileName = "../output/" + file + "_" + n_ip + "_res.txt";
-    graphIp.saveResult(saveFileName, mat, m, n,cvMap);
+    graphIp.saveResult(saveFileName, mat, m, n, cvMap);
 
 
     cout << "======================== free malloc memory ======================" << endl;

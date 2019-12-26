@@ -1,0 +1,10 @@
+-1270 -1217 -1197 -1279 -1227 -1197
+-1270 -1217 -1197 -1279 -1227 -1197
+-1809 -1756 -1736 -1818 -1766 -1736
+color :vendor
+1     :   3
+2     :   6
+3     :   2
+minimum weight sum is 4150
+minimum time cycle is 1759
+minimum area is       194

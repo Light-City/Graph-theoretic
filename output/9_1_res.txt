@@ -1,0 +1,10 @@
+-2005 -2055 -1997 -2021 -1973 -2031
+-2005 -2055 -1997 -2021 -1973 -2031
+-2544 -2594 -2536 -2560 -2512 -2570
+color :vendor
+1     :   5
+2     :   3
+3     :   1
+minimum weight sum is 6514
+minimum time cycle is 2993
+minimum area is       389

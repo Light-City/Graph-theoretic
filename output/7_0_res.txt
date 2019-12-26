@@ -1,0 +1,10 @@
+-1809 -1765 -1782 -1844 -1762 -1778
+-1809 -1765 -1782 -1844 -1762 -1778
+-1809 -1765 -1782 -1844 -1762 -1778
+color :vendor
+1     :   5
+2     :   2
+3     :   6
+minimum weight sum is 5305
+minimum time cycle is 2133
+minimum area is       210

@@ -5,7 +5,7 @@
 #ifndef LAB_GRAPH_H
 #define LAB_GRAPH_H
 
-#include "km.h"
+#include "util.h"
 
 class GraphIp {
 private:

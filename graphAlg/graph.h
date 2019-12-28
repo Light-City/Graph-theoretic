@@ -5,7 +5,7 @@
 #ifndef LAB_GRAPH_H
 #define LAB_GRAPH_H
 
-#include "util.h"
+#include "km.h"
 
 class GraphIp {
 private:
@@ -18,6 +18,8 @@ private:
     Node *dummyHead2_{nullptr};
     Node *dummyHead3_{nullptr};
     struct GraphResult {
+        int rawCycle;
+        int rawArea;
         int minSum;
         int minCycle;
         int minArea;
@@ -307,6 +309,16 @@ public:
         return res;
     }
 
+    int getRawArea(map<int, int> &typeArea, map<int, vector<Node *>> &vNodeMap) {
+        int res = 0;
+        for (auto each:vNodeMap) {
+            for (auto node:each.second) {
+                res += typeArea[node->type];
+            }
+        }
+        return res;
+    }
+
     int minArea(map<int, int> &typeArea, vector<vector<Node *>> &res) {
         int minArea = 0;
         // typeArea   type:area
@@ -320,7 +332,9 @@ public:
         return minArea;
     }
 
-    void setGraphResult(int minSum, int minCycle, int minArea) {
+    void setGraphResult(int rawCycle, int rawArea, int minSum, int minCycle, int minArea) {
+        graphResult.rawCycle = rawCycle;
+        graphResult.rawArea = rawArea;
         graphResult.minSum = minSum;
         graphResult.minCycle = minCycle;
         graphResult.minArea = minArea;
@@ -336,10 +350,15 @@ public:
                     outfile << weightMatrix[i][j] << "\n";
             }
         }
+
         outfile << "color :" << "vendor" << "\n";
         for (auto each:cvMap)
             outfile << each.first << "     :   " << each.second << "\n";
         outfile << "minimum weight sum is " << graphResult.minSum << "\n";
+
+        outfile << "raw time cycle is " << graphResult.rawCycle << "\n";
+        outfile << "raw area is " << graphResult.rawArea << "\n";
+
         outfile << "minimum time cycle is " << graphResult.minCycle << "\n";
         outfile << "minimum area is       " << graphResult.minArea << "\n";
 

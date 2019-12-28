@@ -136,6 +136,14 @@ int main(int argc, char *argv[]) {
     cout << "======================== print all map ===============" << endl;
     printAllMap(vNodeMap, vtMap, vnMap, ctMap, vcMap);
 
+
+    cout << "======================== get Raw Area and Cycle ===============" << endl;
+
+    int rawCycle = graphIp.getAllStageCycle();
+    cout << "raw time cycle is " << rawCycle << endl;
+    int rawArea = graphIp.getRawArea(typeArea, vNodeMap);
+    cout << "raw area is " << rawArea << endl;
+
     cout << "======================== detect a graph ======================" << endl;
     // from color 1 to detect a graph
     vector<vector<Node *>> res = graphIp.detectAllVendor(vNodeMap, cvMap);
@@ -146,11 +154,16 @@ int main(int argc, char *argv[]) {
     int minSum = -ret;
     cout << "minWeightSum is " << minSum << endl;
     int minCycle = graphIp.getAllStageCycle();
+
+
+    cout << "raw time cycle is " << rawCycle << endl;
+    cout << "raw area is " << rawArea << endl;
+
     cout << "minimum time cycle is " << minCycle << endl;
     int minArea = graphIp.minArea(typeArea, res);
     cout << "minimum area is " << minArea << endl;
 
-    graphIp.setGraphResult(minSum, minCycle, minArea);
+    graphIp.setGraphResult(rawCycle, rawArea, minSum, minCycle, minArea);
 
     string saveFileName = "../output/" + file + "_" + n_ip + "_res.txt";
     graphIp.saveResult(saveFileName, mat, m, n, cvMap);

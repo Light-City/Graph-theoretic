@@ -122,4 +122,6 @@ Our development environment is:
   ./a.out
   ```
 
+  1 represents the data set number, 0 represents the number of trusted IP cores.
+
 - View experimental results (enter the output directory)

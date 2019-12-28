@@ -119,7 +119,7 @@ Our development environment is:
 
   ```
   g ++ graph.cpp -std = c ++ 11 
-  ./a.out
+  ./a.out 1 0
   ```
 
   1 represents the data set number, 0 represents the number of trusted IP cores.

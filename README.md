@@ -119,7 +119,7 @@ Our development environment is:
   - It works as follows:
 
   ```
-  g ++ graph.cpp -std = c ++ 11 
+  g++ graph.cpp -std=c++11
   ./a.out 1 0
   ```
 

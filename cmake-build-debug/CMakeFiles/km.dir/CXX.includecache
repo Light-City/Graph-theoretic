@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/light/Graph-theoretic/graphAlg/graph.cpp
+graph.h
+/home/light/Graph-theoretic/graphAlg/graph.h
+
+/home/light/Graph-theoretic/graphAlg/graph.h
+util.h
+/home/light/Graph-theoretic/graphAlg/util.h
+
+/home/light/Graph-theoretic/graphAlg/util.h
+stdio.h
+/home/light/Graph-theoretic/graphAlg/stdio.h
+string.h
+/home/light/Graph-theoretic/graphAlg/string.h
+fstream
+-
+iostream
+-
+map
+-
+vector
+-
+set
+-
+queue
+-
+

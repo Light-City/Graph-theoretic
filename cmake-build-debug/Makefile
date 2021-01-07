@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named graph
+# Target rules for targets named color
 
 # Build rule for target.
-graph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 graph
-.PHONY : graph
+color: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 color
+.PHONY : color
 
 # fast build rule for target.
-graph/fast:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
-.PHONY : graph/fast
+color/fast:
+	$(MAKE) -f CMakeFiles/color.dir/build.make CMakeFiles/color.dir/build
+.PHONY : color/fast
 
-graphAlg/graph.o: graphAlg/graph.cpp.o
+graphAlg/color.o: graphAlg/color.cpp.o
 
-.PHONY : graphAlg/graph.o
+.PHONY : graphAlg/color.o
 
 # target to build an object file
-graphAlg/graph.cpp.o:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/graphAlg/graph.cpp.o
-.PHONY : graphAlg/graph.cpp.o
+graphAlg/color.cpp.o:
+	$(MAKE) -f CMakeFiles/color.dir/build.make CMakeFiles/color.dir/graphAlg/color.cpp.o
+.PHONY : graphAlg/color.cpp.o
 
-graphAlg/graph.i: graphAlg/graph.cpp.i
+graphAlg/color.i: graphAlg/color.cpp.i
 
-.PHONY : graphAlg/graph.i
+.PHONY : graphAlg/color.i
 
 # target to preprocess a source file
-graphAlg/graph.cpp.i:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/graphAlg/graph.cpp.i
-.PHONY : graphAlg/graph.cpp.i
+graphAlg/color.cpp.i:
+	$(MAKE) -f CMakeFiles/color.dir/build.make CMakeFiles/color.dir/graphAlg/color.cpp.i
+.PHONY : graphAlg/color.cpp.i
 
-graphAlg/graph.s: graphAlg/graph.cpp.s
+graphAlg/color.s: graphAlg/color.cpp.s
 
-.PHONY : graphAlg/graph.s
+.PHONY : graphAlg/color.s
 
 # target to generate assembly for a file
-graphAlg/graph.cpp.s:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/graphAlg/graph.cpp.s
-.PHONY : graphAlg/graph.cpp.s
+graphAlg/color.cpp.s:
+	$(MAKE) -f CMakeFiles/color.dir/build.make CMakeFiles/color.dir/graphAlg/color.cpp.s
+.PHONY : graphAlg/color.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... graph"
+	@echo "... color"
 	@echo "... edit_cache"
-	@echo "... graphAlg/graph.o"
-	@echo "... graphAlg/graph.i"
-	@echo "... graphAlg/graph.s"
+	@echo "... graphAlg/color.o"
+	@echo "... graphAlg/color.i"
+	@echo "... graphAlg/color.s"
 .PHONY : help
 
 

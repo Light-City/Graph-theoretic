@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/light/Graph-theoretic
 CMAKE_BINARY_DIR = /home/light/Graph-theoretic/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/graph.dir
+# Target rules for target CMakeFiles/color.dir
 
 # All Build rule for target.
-CMakeFiles/graph.dir/all:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/depend
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/light/Graph-theoretic/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target graph"
-.PHONY : CMakeFiles/graph.dir/all
+CMakeFiles/color.dir/all:
+	$(MAKE) -f CMakeFiles/color.dir/build.make CMakeFiles/color.dir/depend
+	$(MAKE) -f CMakeFiles/color.dir/build.make CMakeFiles/color.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/light/Graph-theoretic/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target color"
+.PHONY : CMakeFiles/color.dir/all
 
 # Include target in all.
-all: CMakeFiles/graph.dir/all
+all: CMakeFiles/color.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/graph.dir/rule: cmake_check_build_system
+CMakeFiles/color.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/light/Graph-theoretic/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/graph.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/color.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/light/Graph-theoretic/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/graph.dir/rule
+.PHONY : CMakeFiles/color.dir/rule
 
 # Convenience name for target.
-graph: CMakeFiles/graph.dir/rule
+color: CMakeFiles/color.dir/rule
 
-.PHONY : graph
-
-# clean rule for target.
-CMakeFiles/graph.dir/clean:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/clean
-.PHONY : CMakeFiles/graph.dir/clean
+.PHONY : color
 
 # clean rule for target.
-clean: CMakeFiles/graph.dir/clean
+CMakeFiles/color.dir/clean:
+	$(MAKE) -f CMakeFiles/color.dir/build.make CMakeFiles/color.dir/clean
+.PHONY : CMakeFiles/color.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/color.dir/clean
 
 .PHONY : clean
 

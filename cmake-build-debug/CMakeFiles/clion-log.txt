@@ -1,1 +1,4 @@
-CMakeLists.txt not found in /home/light/Graph-theoretic Select CMakeLists.txt file...
+/home/light/CLION/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/home/light/gcc8.3/bin/gcc -DCMAKE_CXX_COMPILER=/home/light/gcc8.3/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/light/Graph-theoretic
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/light/Graph-theoretic/cmake-build-debug

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Graph-theoretic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/light/Graph-theoretic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/light/Graph-theoretic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color">
+				<Option output="/home/light/Graph-theoretic/cmake-build-debug/color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/Graph-theoretic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 color"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color/fast">
+				<Option output="/home/light/Graph-theoretic/cmake-build-debug/color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/light/Graph-theoretic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/light/gcc8.3/include"/>
+					<Add directory="/home/light/gcc8.3/lib/gcc/x86_64-pc-linux-gnu/8.3.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 color/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/light/Graph-theoretic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/light/Graph-theoretic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/light/Graph-theoretic/graphAlg/color.cpp">
+			<Option target="color"/>
+		</Unit>
+		<Unit filename="/home/light/Graph-theoretic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

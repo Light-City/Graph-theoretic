@@ -1,12 +1,16 @@
 -2544 -2603 -2582 -2586 -2508 -2612
 -2544 -2603 -2582 -2586 -2508 -2612
--2544 -2603 -2582 -2586 -2508 -2612
+-1667 -1740 -1696 -1692 -1659 -1730
+-1416 -1411 -1471 -1459 -1384 -1463
+0 0 0 0 0 0
 color :vendor
 1     :   5
 2     :   1
-3     :   3
-minimum weight sum is 7634
+3     :   4
+4     :   2
+5     :   3
+minimum weight sum is 8155
 raw time cycle is 6
 raw area is 678
-minimum time cycle is 10
-minimum area is       405
+minimum time cycle is 14
+minimum area is       413

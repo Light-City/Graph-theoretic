@@ -1,4 +1,16 @@
 /home/light/CLION/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/home/light/gcc8.3/bin/gcc -DCMAKE_CXX_COMPILER=/home/light/gcc8.3/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/light/Graph-theoretic
 -- Configuring done
--- Generating done
+CMake Error at CMakeLists.txt:7 (add_executable):
+  Cannot find source file:
+
+    graphAlg/color.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:7 (add_executable):
+  No SOURCES given to target: color
+
+
 -- Build files have been written to: /home/light/Graph-theoretic/cmake-build-debug

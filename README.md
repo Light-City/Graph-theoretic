@@ -2,7 +2,8 @@
 [Chinese README](./README.ch.md)
 
 ## 1.Project description
-
+This project deals with hardware Trojans in untrusted 3PIPs. Please refer our paper "Toward Building and Optimizing Trustworthy Systems Using Untrusted Components:
+A Graph-Theoretic Perspective" for more detail.
 ## 2. Description of content
 
 ### 2.1 Directory description
